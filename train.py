@@ -191,12 +191,12 @@ class Transformer(torch.nn.Module):
         return a,b,c,d,e,f
 
 # List of images names
-day_image_names_list = os.listdir('../data/day/')
-night_image_names_list = os.listdir('../data/night/')
+day_image_names_list = os.listdir('./data/day/')
+night_image_names_list = os.listdir('./data/night/')
 
 # List of images paths
-day_image_names_list = ['../data/day/'+x for x in day_image_names_list]
-night_image_names_list = ['../data/night/'+x for x in night_image_names_list]
+day_image_names_list = ['./data/day/'+x for x in day_image_names_list]
+night_image_names_list = ['./data/night/'+x for x in night_image_names_list]
 
 day_images_dataset = Img_Dataset(day_image_names_list)
 night_images_dataset = Img_Dataset(night_image_names_list)
