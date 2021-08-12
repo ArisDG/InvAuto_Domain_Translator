@@ -8,3 +8,5 @@ In order to run:
 3. Run ```train.py```
 
 Code is written in Python 3.8 with PyTorch 1.8.0
+
+This is still work in progress!
